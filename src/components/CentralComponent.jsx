@@ -20,10 +20,15 @@ export default function CentralComponent({ title, hashtag, date, readTime, image
       <img src={imageUrl} alt={title} className="component-image" />
       <div className="component-icons">
         <div className="icon-group">
-          <FontAwesomeIcon icon={faArrowUp} className="icon-upvotes" />
-          <span className="icon-text">{upvotes}</span>
-          <FontAwesomeIcon icon={faComment} className="icon-comments" />
-          <span className="icon-text">{comments}</span>
+        <div className="icon-container upvote-container">
+            <FontAwesomeIcon icon={faArrowUp} className="icon" />
+            <span className="icon-text">{upvotes}</span>
+          </div>
+          <div className="icon-container comment-container">
+            <FontAwesomeIcon icon={faComment} className="icon" />
+            <span className="icon-text">{comments}</span>
+          </div>
+          
           <FontAwesomeIcon icon={faBookmark} className="icon-bookmark" />
           <FontAwesomeIcon icon={faCopy} className="icon-copy" />
         </div>

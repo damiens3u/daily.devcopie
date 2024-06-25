@@ -85,22 +85,26 @@
     font-size: 0.9rem; /* Taille du texte à côté de l'icône */
     color: #999; /* Couleur du texte */
     font-weight: bold; /* Optionnel : rendre le texte en gras */
-    margin-left : -50px; 
+    margin-left : 0px; 
   }
 
   
-  .icon-upvotes:hover {
-    color: green; /* Couleur verte pour upvote */
+  /*
+
+  .comment-container:hover {
+    background-color: green;
+    border-radius: 8px;
+    
   }
   
   .icon-comments:hover {
-    color: blue; /* Couleur bleue pour commentaire */
+    color: blue; 
   }
   
   .icon-bookmark:hover {
-    color: orange; /* Couleur orange pour enregistrer */
+    color: orange; 
   }
   
   .icon-copy:hover {
-    color: pink; /* Couleur rose pour copier le lien */
+    color: pink; 
   }
