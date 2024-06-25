@@ -1,0 +1,38 @@
+/* Fond de la navbar avec dégradé */
+.custom-navbar {
+    background-color: #0E1217; 
+    border: 1px solid #fff; /* Bordure blanche de 1 pixel */
+    border-radius: 8px; 
+    margin-bottom: 20px;
+    padding: 10px 0; /* Ajoute un peu de padding pour l'espace autour des éléments */
+  }
+  
+  /* Taille et espacement du logo */
+  .logo {
+    width: 180px; /* Ajustez la taille du logo selon vos besoins */
+    height: auto; /* Garantit que la hauteur s'ajuste proportionnellement */
+  }
+  
+  /* Style des boutons dans la navbar */
+  .navbar-button {
+    color: #ffffff;
+    border: none;
+    margin-left: 10px; /* Espacement entre les boutons */
+  }
+  
+  /* Style des icônes dans les boutons */
+  .navbar-icon {
+    width: 20px; /* Taille des icônes */
+    height: auto;
+  }
+  
+  /* Ajustement des marges pour les éléments de la navbar */
+  .ml-auto {
+    margin-left: auto !important;
+  }
+  
+  .mr-auto {
+    margin-right: auto !important;
+  }
+  
+  

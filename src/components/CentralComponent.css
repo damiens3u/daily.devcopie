@@ -1,0 +1,106 @@
+.central-component {
+    width: 100%;
+    max-width: 300px; /* Ajustez la largeur maximale selon vos besoins */
+    margin: 10px;
+    padding: 15px;
+    background-color: #312f2f;
+    border: 1px solid #fff; /* Bordure blanche */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .component-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff; /* Texte blanc */
+  }
+
+
+  
+  .component-hashtag {
+    font-size: 1rem;
+    border: 1px solid #fff; /* Bordure blanche */
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 5px; /* Ajoutez un padding pour espacer le texte des bords */
+    margin-right: 5px; /* Espacement entre les hashtags */
+    font-size: 0.8rem; 
+  }
+  
+  .component-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .component-date {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .component-details {
+    font-size: 0.9rem;
+    color: #999;
+    margin-bottom: 10px;
+  }
+  
+  .component-date {
+    color: #999;
+  }
+  
+  .component-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+
+  .component-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alignement vertical */
+    margin-top: 30px; /* Espacement par rapport à l'image */
+  }
+  
+  .icon-group {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Utilise toute la largeur disponible */
+    justify-content: space-between; /* Espacement égal entre les icônes */
+
+  }
+  
+  .icon {
+    font-size: 1.2rem; /* Taille de l'icône */
+    color: #999; /* Couleur de l'icône */
+    margin-right: 5px; /* Espacement entre l'icône et le texte */
+    transition: color 0.3s ease;
+  }
+  
+  .icon-text {
+    font-size: 0.9rem; /* Taille du texte à côté de l'icône */
+    color: #999; /* Couleur du texte */
+    font-weight: bold; /* Optionnel : rendre le texte en gras */
+    margin-left : -50px; 
+  }
+
+  
+  .icon-upvotes:hover {
+    color: green; /* Couleur verte pour upvote */
+  }
+  
+  .icon-comments:hover {
+    color: blue; /* Couleur bleue pour commentaire */
+  }
+  
+  .icon-bookmark:hover {
+    color: orange; /* Couleur orange pour enregistrer */
+  }
+  
+  .icon-copy:hover {
+    color: pink; /* Couleur rose pour copier le lien */
+  }

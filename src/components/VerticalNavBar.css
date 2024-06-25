@@ -1,0 +1,62 @@
+/* Styles pour le menu déroulant vertical */
+.navbar-menu {
+    border: 1px solid #fff; /* Bordure blanche de 1 pixel */
+    border-radius: 8px; /* Coins arrondis de 8 pixels */
+    position: fixed;
+    top: 200px; /* Position sous la navbar */
+    left: 0;
+    width: 60px; /* Largeur minimale par défaut */
+    background-color: #0E1217;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    z-index: 1000;
+  }
+  
+  /* Styles pour le menu ouvert */
+  .navbar-menu.active {
+    width: 250px; /* Largeur augmentée lorsque le menu est ouvert */
+  }
+  
+  /* Styles pour le bouton de toggle */
+  .navbar-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  .toggle-icon {
+    width: 20px;
+    height: auto;
+  }
+  
+  /* Styles pour les éléments de la liste */
+  .navbar__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  .navbar__li-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .navbar__li {
+    margin-left: 10px;
+    color: #ffffff;
+    overflow: hidden; 
+  }
+  
+  .navbar__icon {
+    width: 20px;
+    height: auto;
+    margin-right: 30px;
+  }
+  
+  

@@ -22,14 +22,6 @@ a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -54,6 +46,12 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.start-reading-btn {
+  background-color: #28a745;
+  border: none;
+  color: white;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -66,3 +64,12 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+body {
+  background-color: #0E1217; /* Bleu, remplacez par votre couleur préférée */
+  color: #fff; /* Couleur du texte par défaut, blanc pour un contraste élevé */
+  font-family: 'Inter', sans-serif; /* Exemple de police, remplacez par celle de votre choix */
+  margin: 0; /* Réinitialisation des marges par défaut du corps */
+  padding: 0; /* Réinitialisation des marges par défaut du corps */
+}
+
