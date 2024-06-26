@@ -1,62 +1,74 @@
-/* Styles pour le menu déroulant vertical */
-.navbar-menu {
-    border: 1px solid #fff; /* Bordure blanche de 1 pixel */
-    border-radius: 8px; /* Coins arrondis de 8 pixels */
-    position: fixed;
-    top: 200px; /* Position sous la navbar */
-    left: 0;
-    width: 30px; /* Largeur minimale par défaut */
-    background-color: #0E1217;
-    transition: width 0.3s ease;
-    overflow: hidden;
-    z-index: 1000;
-  }
-  
-  /* Styles pour le menu ouvert */
-  .navbar-menu.active {
-    width: 250px; /* Largeur augmentée lorsque le menu est ouvert */
-  }
-  
-  /* Styles pour le bouton de toggle */
-  .navbar-toggle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    cursor: pointer;
-    color: #ffffff;
-  }
-  
-  .toggle-icon {
-    width: 20px;
-    height: auto;
-  }
-  
-  /* Styles pour les éléments de la liste */
-  .navbar__list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    color: #ffffff;
-  }
-  
-  .navbar__li-box {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    cursor: pointer;
-  }
-  
-  .navbar__li {
-    margin-left: 10px;
-    color: #ffffff;
-    overflow: hidden; 
-  }
-  
-  .navbar__icon {
-    width: 20px;
-    height: auto;
-    margin-right: 30px;
-    opacity: 1;
-  }
+.navbar {
+  border: 1px solid #fff; /* Bordure blanche */
+  border-radius: 8px; /* Coins arrondis */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff; /* Couleur du texte */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ccc; /* Couleur du texte au survol */
+}
+
+.navbar-toggler {
+  color: #fff; /* Couleur de l'icône de bascule */
+  position: absolute;
+  top: 0;
+  left: 100%;
+  transform: translateX(-50%);
+  z-index: 10; /* Assurez-vous que le toggler est au-dessus des autres éléments */
+}
+
+.toggle-icon {
+  font-size: 0.5rem; /* Taille de l'icône ajustée */
+}
+
+.navbar-toggler:hover {
+  color: #ccc; /* Couleur de l'icône de bascule au survol */
+}
+
+.navbar__icon {
+  width: 15px;
+  height: auto;
+  margin-right: 120px; /* Espacement entre l'icône et le texte */
+}
+
+.navbar__text {
+  margin-right: 20px; /* Espacement entre le texte et le bord droit */
+  font-size: 0.70rem;
+}
+
+/* VerticalNavBar.css */
+
+.navbar-toggler {
+  border: none;
+  background: none;
+}
+
+.navbar-nav .nav-item .nav-link {
+  display: flex;
+  align-items: center;
+  color: white; /* Modifier la couleur du texte */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ccc; /* Couleur du texte au survol */
+}
+
+.navbar__icon {
+  margin-right: 10px;
+}
+
+
+.custom-navbar {
+  background-color: #000; /* Fond noir */
+  border: 1px solid white; /* Bordure blanche */
+  padding: 10px;
+  width: 100%;
+}
+
+
+
+
   

@@ -1,0 +1,35 @@
+.footer-container {
+    border: 1px solid #fff; /* Bordure blanche de 1 pixel */
+    border-radius: 8px; 
+    margin-bottom: 0px;
+    padding: 10px 0;
+  }
+  
+  .social-icons {
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icon {
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff; /* Couleur des icônes */
+  }
+  
+  .footer-text {
+    color: #fff; /* Couleur du texte */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+
+  .logo {
+    width: 150px; /* Ajustez la taille selon vos besoins */
+    height: auto; /* Assurez-vous que la hauteur s'ajuste automatiquement pour maintenir les proportions */
+  }
+  
+.custom-footer{
+    background-color: #000; 
+}

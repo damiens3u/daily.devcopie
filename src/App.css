@@ -58,3 +58,22 @@
   background-color: #ccc;
   border-radius: 4px;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.content-wrapper {
+  display: flex;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .central-components {
+    padding: 10px;
+    gap: 10px;
+  }
+}

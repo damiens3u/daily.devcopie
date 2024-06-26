@@ -89,6 +89,25 @@
     margin-left : 0px; 
   }
 
+  .scrollTop {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    display: none; /* Masquer par défaut */
+  }
+  
+  .scrollTop:hover {
+    background-color: #555; /* Changement de couleur au survol */
+  }
+
   
   /*
 
