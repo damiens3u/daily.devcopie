@@ -5,7 +5,7 @@
     position: fixed;
     top: 200px; /* Position sous la navbar */
     left: 0;
-    width: 60px; /* Largeur minimale par défaut */
+    width: 30px; /* Largeur minimale par défaut */
     background-color: #0E1217;
     transition: width 0.3s ease;
     overflow: hidden;
@@ -59,4 +59,6 @@
     margin-right: 30px;
   }
   
-  
+  .hidden-text {
+    display: none;
+  }

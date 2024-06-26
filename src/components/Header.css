@@ -1,46 +1,48 @@
 /* Fond de la navbar avec dégradé */
 .custom-navbar {
-    background-color: #0E1217; 
-    border: 1px solid #fff; /* Bordure blanche de 1 pixel */
-    border-radius: 8px; 
-    margin-bottom: 20px;
-    padding: 10px 0; /* Ajoute un peu de padding pour l'espace autour des éléments */
-  }
-  
-  /* Taille et espacement du logo */
-  .logo {
-    width: 180px; /* Ajustez la taille du logo selon vos besoins */
-    height: auto; /* Garantit que la hauteur s'ajuste proportionnellement */
-  }
-  
-  /* Style des boutons dans la navbar */
-  .navbar-button {
-    color: #ffffff;
-    border: none;
-    margin-left: 10px; /* Espacement entre les boutons */
-  }
-  
-  /* Style des icônes dans les boutons */
-  .navbar-icon {
-    width: 20px; /* Taille des icônes */
-    height: auto;
-  }
-  
-  /* Ajustement des marges pour les éléments de la navbar */
-  .ml-auto {
-    margin-left: auto !important;
-  }
-  
-  .mr-auto {
-    margin-right: auto !important;
-  }
-  
-  
+  background-color: #0E1217; 
+  border: 1px solid #fff; /* Bordure blanche de 1 pixel */
+  border-radius: 8px; 
+  margin-bottom: 20px;
+  padding: 10px 0; /* Ajoute un peu de padding pour l'espace autour des éléments */
+}
+
+/* Taille et espacement du logo */
+.logo {
+  width: 160px; /* Ajustez la taille du logo selon vos besoins */
+  height: auto; /* Garantit que la hauteur s'ajuste proportionnellement */
+}
+
+.logo-small-screen {
+  width: 160px; /* Réduire la taille du logo pour les petits écrans si nécessaire */
+}
+
+/* Style des boutons dans la navbar */
+.navbar-button {
+  color: #ffffff;
+  border: none;
+  margin-left: 10px; /* Espacement entre les boutons */
+}
+
+/* Style des icônes dans les boutons */
+.navbar-icon {
+  width: 20px; /* Taille des icônes */
+  height: auto;
+}
+
+/* Ajustement des marges pour les éléments de la navbar */
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.mr-auto {
+  margin-right: auto !important;
+}
+
 .search-bar {
   display: flex;
   align-items: center;
   width: 100%;
-  border: 1px solid #fff;
   border-radius: 8px; 
   max-width: 600px; /* Largeur maximale de la barre de recherche */
 }
@@ -82,8 +84,39 @@
   background-color: transparent; 
 }
 
-@media (max-width: 767px) {
-  .navbar-button {
-    padding: 0.5rem 1rem; /* Ajustez les marges internes selon vos besoins */
+.navbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: nowrap; /* Garde les éléments sur une seule ligne */
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+}
+
+.search-container.focused {
+  border: 1px solid #fff; /* Bordure blanche lors du focus */
+}
+
+@media (max-width: 768px) {
+  .navbar-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-bar {
+    width: 100%;
+    margin: 10px 0; /* Espacement autour de la barre de recherche */
+  }
+
+  .button-group {
+    justify-content: center;
+    width: 100%;
   }
 }
+
+
+
