@@ -13,13 +13,13 @@
   }
   
   .social-icon {
-    font-size: 20px;
+    font-size: 15px;
     margin: 0 10px;
-    color: #fff; /* Couleur des icônes */
+    color: #999; /* Couleur des icônes */
   }
   
   .footer-text {
-    color: #fff; /* Couleur du texte */
+    color: #999; /* Couleur du texte */
     text-align: center;
     margin-top: 20px;
     font-size: 12px;
@@ -41,7 +41,7 @@
 }
 
 .footer-column {
-  color: #fff; /* Couleur du texte */
+  color: #999; /* Couleur du texte */
 }
 
 .footer-column h3 {
@@ -84,10 +84,26 @@
 .flag-icon {
   font-size: 1rem; /* Taille des icônes de drapeaux */
   margin: 0 8px; /* Espacement entre les icônes */
+  color: #999;
 }
 
 .footer-message {
   font-size: 0.7rem;
   margin-bottom: 10px;
-  color: #fff;
+  color: #999;
+}
+
+.footer-bottom {
+  margin-top: 20px; /* Espacement par rapport au message */
+  color: #312f2f; /* Couleur du texte */
+  font-size: 10px; /* Taille du texte */
+}
+
+.footer-bottom a {
+  color: #312f2f; /* Couleur des liens */
+  text-decoration: none; /* Supprimer le soulignement des liens */
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline; /* Souligner les liens au survol */
 }

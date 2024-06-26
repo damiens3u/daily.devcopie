@@ -27,6 +27,12 @@ const Footer = () => {
             <div className="footer-text">
                 <img src={logo} alt="daily.dev logo" className="logo"/>
                 <p>daily.dev est un réseau professionnel qui permet aux développeurs d'apprendre, de collaborer et d'évoluer ensemble.</p>
+                <div className="social-icons">
+          <FontAwesomeIcon icon={faTwitter} className="social-icon" />
+          <FontAwesomeIcon icon={faInstagram} className="social-icon" />
+          <FontAwesomeIcon icon={faTiktok} className="social-icon" />
+          <FontAwesomeIcon icon={faGithub} className="social-icon" />
+              </div>
             </div>
             <div className="footer-columns">
                 <div className="footer-column">
@@ -71,6 +77,9 @@ const Footer = () => {
           </li>
         ))}
       </ul>
+      <div className="footer-bottom">
+        <p>&copy; 2024 Daily Dev Ltd. | <a href="#">Terms</a> | <a href="#">Privacy</a> | <a href="#">Guidelines</a></p>
+      </div>
         </div>
     );
 }
